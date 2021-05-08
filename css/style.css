@@ -1,3 +1,119 @@
-/*font-family: 'Open Sans', sans-serif;*/
-/*font-family: 'Raleway', sans-serif;*/
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+    --font-primary: 'Raleway', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+/* --- HEADER STYLES --- */
+
+.container {
+    margin: 0 auto;
+    max-width: 1352px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 130px;
+    box-shadow: 0 3px 6px #00000029;
+    position: sticky;
+    top: 0;
+}
+
+.navigation__menu {
+    display: flex;
+}
+
+.navigation__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+}
+
+.navigation__item__link {
+    padding: 28px 0 27px 0;
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3.28px;
+    color: var(--color-grey);
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+    transition: 0.5s;
+}
+
+.navigation__item__link:hover {
+    color: var(--color-black);
+    border-bottom: 4px solid var(--color-primary);
+}
+
+.logo {
+    align-self: center;
+    font-size: 32px;
+    color: var(--color-primary);
+}
+
+.opening-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-screen__title {
+    margin-bottom: 20px;
+    font-size: 49px;
+}
+
+.opening-screen__text {
+    margin-bottom: 38px;
+    font-size: 16px;
+    font-family: var(--font-secondary);
+}
+
+.opening-screen__button-cta {
+    padding: 22px 157px;
+    background: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.opening-screen__button-cta:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+header > img {
+    width: 100%;
+}
 
