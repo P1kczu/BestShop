@@ -17,15 +17,23 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    position: relative;
 }
-
-/* --- HEADER STYLES --- */
 
 .container {
     margin: 0 auto;
     max-width: 1352px;
 }
+                                   /* ------ HEADER STYLES ------ */
+
+header {
+    margin-bottom: 145px;
+    position: sticky;
+    top: 0;
+    background: var(--color-white);
+
+}
+
+/*  navigation bar  */
 
 nav .container {
     display: flex;
@@ -35,10 +43,7 @@ nav .container {
 nav {
     width: 100%;
     height: 70px;
-    margin-bottom: 130px;
     box-shadow: 0 3px 6px #00000029;
-    position: sticky;
-    top: 0;
 }
 
 .navigation__menu {
@@ -76,6 +81,8 @@ nav {
     color: var(--color-primary);
 }
 
+                        /* ------ SECTION OPENING-SCREEN ------ */
+
 .opening-screen {
     display: flex;
     flex-direction: column;
@@ -105,6 +112,8 @@ nav {
     font-size: 16px;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.5s;
+    margin-bottom: 16px;
 }
 
 .opening-screen__button-cta:hover {
@@ -113,7 +122,87 @@ nav {
     border: 1px solid var(--color-primary);
 }
 
-header > img {
+.opening-screen__background {
+    position: relative;
+}
+
+.opening-screen__background-image {
     width: 100%;
 }
 
+.blank {
+    background: var(--color-white);
+    width: 100%;
+    height: 78px;
+    position: absolute;
+    bottom: 9px;
+    box-shadow: 0px -80px 80px #00000029;
+}
+
+                                /* ------ SECTION STATS-SCREEN ------ */
+
+.stats-screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: var(--color-white);
+}
+
+.stats-screen__title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.stats-screen__box {
+    width: 176px;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.dot {
+    width: 63px;
+    height: 63px;
+    background: #bada55;
+    border-radius: 50%;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.red {
+    background: var(--color-redish);
+}
+
+.blue {
+    background: var(--color-primary);
+}
+
+.green {
+    background: var(--color-green);
+}
+
+.stats-screen__box-title {
+    margin-bottom: 19px;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 5.96px;
+}
+
+.stats-screen__text {
+    font-size: 17px;
+    color: var(--color-grey);
+}
+
+.stats-screen__box__image {
+    position: absolute;
+    top: 5px;
+}
+
+.dot.blue > img {
+    top: 15px;
+}
