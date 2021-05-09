@@ -30,6 +30,7 @@ header {
     position: sticky;
     top: 0;
     background: var(--color-white);
+    z-index: 1;
 
 }
 
