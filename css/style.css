@@ -402,7 +402,7 @@ nav {
 }
 
 .pricing-screen__box.box-blue > ul {
-    padding: 0px 16px 15px 16px;
+    padding: 0 16px 15px 16px;
 }
 
 .pricing-screen__box.box-green {
@@ -472,6 +472,7 @@ nav {
 .box-green {
     border-color: var(--color-green);
 }
+
 .button-right {
     background: var(--color-green);
 }
@@ -479,7 +480,6 @@ nav {
 .button-middle {
     background-color: var(--color-primary);
 }
-
 
 
 .pricing-screen__box > p {
@@ -505,3 +505,46 @@ nav {
     margin-right: 10px;
 }
 
+/*  ------  SECTION CONTACT-SCREEN  ------  */
+
+.container-3 {
+    margin: 0 auto;
+    max-width: 896px;
+}
+
+.contact-screen {
+    display: flex;
+    margin-bottom: 59px;
+}
+
+.contact-screen__info {
+    width: 50%;
+}
+
+.contact-screen__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-screen__title {
+    font-size: 49px;
+    margin-bottom: 22px;
+}
+
+.contact-screen__message {
+    font-family: var(--font-secondary);
+    margin-bottom: 42px;
+    font-size: 16px;
+}
+
+.contact-screen__contact {
+    color: var(--color-grey);
+    font-family: var(--font-secondary);
+    font-weight: 600;
+
+}
+
+span {
+    margin-right: 57px;
+}
