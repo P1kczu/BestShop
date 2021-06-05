@@ -1,0 +1,142 @@
+.pricing-screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-screen__title {
+  width: 100%;
+  text-align: center;
+  margin: 100px 0 0 0;
+  font-size: 36px;
+}
+
+.pricing-screen__box {
+  border: 1px solid var(--color-redish);
+  border-radius: 18px;
+  padding: 34px 132px 81px 132px;
+  margin-top: 71px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 180px;
+}
+
+.pricing-screen__box.box-blue {
+  border-color: var(--color-primary);
+  margin-top: 50px;
+  box-shadow: 5px 10px 27px #07ACE629;
+
+  /*height: 500px;*/
+  /*width: 410px;*/
+}
+
+.pricing-screen__box.box-blue > p {
+  padding-bottom: 20px;
+}
+
+.pricing-screen__box.box-blue > ul {
+  padding: 0 16px 15px 16px;
+}
+
+.pricing-screen__box.box-green {
+  padding: 34px 132px 58px 132px;
+}
+
+.pricing-screen__button {
+  position: absolute;
+  bottom: -24px;
+  padding: 16px 57px;
+  background: #EB476E;
+  border-radius: 23px;
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid rgba(235, 71, 110, 0);
+  transition: 0.5s;
+}
+
+.pricing-screen__box__title {
+  margin: 34px 0 14px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button-left:hover {
+  background: white;
+  color: var(--color-redish);
+  border: 1px solid var(--color-redish);
+}
+
+.button-middle:hover {
+  background: white;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.button-right:hover {
+  background: white;
+  color: var(--color-green);
+  border: 1px solid var(--color-green);
+}
+
+.pricing-screen__box > h4 {
+  padding: 5px 2px;
+  margin-top: 14px;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 46px;
+}
+
+.box-red > h4 {
+  margin-bottom: 69px;
+  color: var(--color-redish);
+}
+
+.box-blue > h4 {
+  color: var(--color-primary);
+}
+
+.box-green > h4 {
+  color: var(--color-green)
+}
+
+.box-green {
+  border-color: var(--color-green);
+}
+
+.button-right {
+  background: var(--color-green);
+}
+
+.button-middle {
+  background-color: var(--color-primary);
+}
+
+
+.pricing-screen__box > p {
+  margin: 5px 0 75px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pricing-screen__box-list > li {
+  margin-bottom: 20px;
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  text-align: center;
+}
+
+.checked::before {
+  content: url("../image/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+
+.unchecked::before {
+  content: url("../image/Close.svg");
+  margin-right: 10px;
+}
