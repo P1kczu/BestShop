@@ -24,14 +24,14 @@
 }
 
 .contact-screen__message {
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 42px;
   font-size: 16px;
 }
 
 .contact-screen__contact {
-  color: var(--color-grey);
-  font-family: var(--font-secondary);
+  color: $color-grey;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   display: flex;
 }
@@ -62,7 +62,7 @@ input[type="text"], input[type="email"] {
   height: 57px;
   width: 440px;
   border: none;
-  border-bottom: 1px solid var(--color-grey);
+  border-bottom: 1px solid $color-grey;
   padding-bottom: 43px;
 }
 
@@ -75,16 +75,16 @@ input[type="email"] {
 }
 
 input::placeholder {
-  color: var(--color-primary);
+  color: $color-primary;
   text-transform: uppercase;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 11px;
   letter-spacing: 3.28px;
 }
 
 .checkbox {
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #707070;
   margin-bottom: 20px;
@@ -98,12 +98,12 @@ input[type="submit"] {
   width: 226px;
   height: 57px;
   align-self: flex-end;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: bold;
   color: white;
   box-shadow: 5px 10px 14px #07ACE629;
-  background: var(--color-primary);
+  background: $color-primary;
   border-radius: 35px;
   border: 1px solid rgba(255, 255, 255, 0);
   transition: 0.5s;
@@ -111,8 +111,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background: white;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  color: $color-primary;
+  border: 1px solid $color-primary;
 }
 
 .checkbox input {

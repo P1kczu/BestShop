@@ -383,7 +383,7 @@ header {
   margin-bottom: 145px;
   position: sticky;
   top: 0;
-  background: var(--color-white);
+  background: #FFFFFF;
   z-index: 1;
 }
 
@@ -412,26 +412,26 @@ nav {
 
 .navigation__item__link {
   padding: 28px 0 27px 0;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3.28px;
-  color: var(--color-grey);
+  color: #A5A5A5;
   border-bottom: 4px solid rgba(255, 255, 255, 0);
   transition: 0.5s;
 }
 
 .navigation__item__link:hover {
-  color: var(--color-black);
-  border-bottom: 4px solid var(--color-primary);
+  color: #000000;
+  border-bottom: 4px solid #08A6E4;
 }
 
 .logo {
   align-self: center;
   font-size: 32px;
-  color: var(--color-primary);
+  color: #08A6E4;
 }
 
 .opening-screen {
@@ -449,16 +449,16 @@ nav {
 .opening-screen__text {
   margin-bottom: 38px;
   font-size: 16px;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
 }
 
 .opening-screen__button-cta {
   padding: 22px 157px;
-  background: var(--color-primary);
+  background: #08A6E4;
   box-shadow: 5px 10px 14px #07ACE629;
   border-radius: 40px;
-  color: var(--color-white);
-  font-family: var(--font-secondary);
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -468,9 +468,9 @@ nav {
 }
 
 .opening-screen__button-cta:hover {
-  background: var(--color-white);
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  background: #FFFFFF;
+  color: #08A6E4;
+  border: 1px solid #08A6E4;
 }
 
 .opening-screen__background {
@@ -482,7 +482,7 @@ nav {
 }
 
 .blank {
-  background: var(--color-white);
+  background: #FFFFFF;
   width: 100%;
   height: 78px;
   position: absolute;
@@ -494,7 +494,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background: var(--color-white);
+  background: #FFFFFF;
 }
 
 .stats-screen__title {
@@ -524,15 +524,15 @@ nav {
 }
 
 .red {
-  background: var(--color-redish);
+  background: #FB3B64;
 }
 
 .blue {
-  background: var(--color-primary);
+  background: #08A6E4;
 }
 
 .green {
-  background: var(--color-green);
+  background: #55DFB4;
 }
 
 .stats-screen__box-title {
@@ -544,7 +544,7 @@ nav {
 
 .stats-screen__text {
   font-size: 17px;
-  color: var(--color-grey);
+  color: #A5A5A5;
 }
 
 .stats-screen__box__image {
@@ -557,7 +557,7 @@ nav {
 }
 
 .benefits-screen {
-  background: var(--color-light-grey);
+  background: #F7F7F7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -565,7 +565,7 @@ nav {
 }
 
 .benefits-screen__box {
-  background: var(--color-white);
+  background: #FFFFFF;
   margin-bottom: 37px;
   border-radius: 5px;
   border: 1px solid #E8E9ED;
@@ -605,7 +605,7 @@ nav {
 
 .benefits-screen__box__text.text > p {
   padding-bottom: 50px;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -624,19 +624,22 @@ nav {
 
 .border-red {
   width: 328px;
-  border: 2px solid #FB3B64;
+  height: 4px;
+  background-color: #FB3B64;
   margin-bottom: 91px;
 }
 
 .border-blue {
   width: 328px;
-  border: 2px solid var(--color-primary);
+  height: 4px;
+  background-color: #08A6E4;
   margin-bottom: 91px;
 }
 
 .border-green {
   width: 328px;
-  border: 2px solid var(--color-green);
+  height: 4px;
+  background-color: #55DFB4;
   margin-bottom: 55px;
 }
 
@@ -669,7 +672,7 @@ nav {
 }
 
 .red-rectangle {
-  background: var(--color-redish);
+  background: #FB3B64;
   width: 180px;
   height: 180px;
   border-radius: 41px;
@@ -688,7 +691,7 @@ nav {
 }
 
 .green-square {
-  background: var(--color-green);
+  background: #55DFB4;
   width: 440px;
   height: 370px;
   border-radius: 5px;
@@ -713,7 +716,7 @@ nav {
 }
 
 .pricing-screen__box {
-  border: 1px solid var(--color-redish);
+  border: 1px solid #FB3B64;
   border-radius: 18px;
   padding: 34px 132px 81px 132px;
   margin-top: 71px;
@@ -725,7 +728,7 @@ nav {
 }
 
 .pricing-screen__box.box-blue {
-  border-color: var(--color-primary);
+  border-color: #08A6E4;
   margin-top: 50px;
   box-shadow: 5px 10px 27px #07ACE629;
   /*height: 500px;*/
@@ -752,7 +755,7 @@ nav {
   border-radius: 23px;
   text-decoration: none;
   color: white;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 13px;
   border: 1px solid rgba(235, 71, 110, 0);
@@ -767,53 +770,53 @@ nav {
 
 .button-left:hover {
   background: white;
-  color: var(--color-redish);
-  border: 1px solid var(--color-redish);
+  color: #FB3B64;
+  border: 1px solid #FB3B64;
 }
 
 .button-middle:hover {
   background: white;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  color: #08A6E4;
+  border: 1px solid #08A6E4;
 }
 
 .button-right:hover {
   background: white;
-  color: var(--color-green);
-  border: 1px solid var(--color-green);
+  color: #55DFB4;
+  border: 1px solid #55DFB4;
 }
 
 .pricing-screen__box > h4 {
   padding: 5px 2px;
   margin-top: 14px;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 46px;
 }
 
 .box-red > h4 {
   margin-bottom: 69px;
-  color: var(--color-redish);
+  color: #FB3B64;
 }
 
 .box-blue > h4 {
-  color: var(--color-primary);
+  color: #08A6E4;
 }
 
 .box-green > h4 {
-  color: var(--color-green);
+  color: #55DFB4;
 }
 
 .box-green {
-  border-color: var(--color-green);
+  border-color: #55DFB4;
 }
 
 .button-right {
-  background: var(--color-green);
+  background: #55DFB4;
 }
 
 .button-middle {
-  background-color: var(--color-primary);
+  background-color: #08A6E4;
 }
 
 .pricing-screen__box > p {
@@ -824,7 +827,7 @@ nav {
 
 .pricing-screen__box-list > li {
   margin-bottom: 20px;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-align: center;
 }
@@ -865,14 +868,14 @@ nav {
 }
 
 .contact-screen__message {
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 42px;
   font-size: 16px;
 }
 
 .contact-screen__contact {
-  color: var(--color-grey);
-  font-family: var(--font-secondary);
+  color: #A5A5A5;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   display: flex;
 }
@@ -903,7 +906,7 @@ input[type=text], input[type=email] {
   height: 57px;
   width: 440px;
   border: none;
-  border-bottom: 1px solid var(--color-grey);
+  border-bottom: 1px solid #A5A5A5;
   padding-bottom: 43px;
 }
 
@@ -916,34 +919,34 @@ input[type=email] {
 }
 
 input::-moz-placeholder {
-  color: var(--color-primary);
+  color: #08A6E4;
   text-transform: uppercase;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 11px;
   letter-spacing: 3.28px;
 }
 
 input:-ms-input-placeholder {
-  color: var(--color-primary);
+  color: #08A6E4;
   text-transform: uppercase;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 11px;
   letter-spacing: 3.28px;
 }
 
 input::placeholder {
-  color: var(--color-primary);
+  color: #08A6E4;
   text-transform: uppercase;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 11px;
   letter-spacing: 3.28px;
 }
 
 .checkbox {
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   color: #707070;
   margin-bottom: 20px;
@@ -957,12 +960,12 @@ input[type=submit] {
   width: 226px;
   height: 57px;
   align-self: flex-end;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: bold;
   color: white;
   box-shadow: 5px 10px 14px #07ACE629;
-  background: var(--color-primary);
+  background: #08A6E4;
   border-radius: 35px;
   border: 1px solid rgba(255, 255, 255, 0);
   transition: 0.5s;
@@ -970,8 +973,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background: white;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  color: #08A6E4;
+  border: 1px solid #08A6E4;
 }
 
 .checkbox input {
@@ -998,7 +1001,7 @@ input[type=submit]:hover {
 
 footer {
   height: 89px;
-  background: var(--color-light-grey);
+  background: #F7F7F7;
   box-shadow: 0px -5px 40px #00000029;
 }
 
@@ -1015,9 +1018,9 @@ footer {
 
 .copyright {
   width: 100%;
-  font-family: var(--font-secondary);
+  font-family: "Open Sans", sans-serif;
   font-size: 11px;
-  color: var(--color-grey);
+  color: #A5A5A5;
   margin-top: 6px;
 }
 

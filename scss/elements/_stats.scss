@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background: var(--color-white);
+  background: $color-white;
 }
 
 .stats-screen__title {
@@ -32,15 +32,15 @@
 }
 
 .red {
-  background: var(--color-redish);
+  background: $color-redish;
 }
 
 .blue {
-  background: var(--color-primary);
+  background: $color-primary;
 }
 
 .green {
-  background: var(--color-green);
+  background: $color-green;
 }
 
 .stats-screen__box-title {
@@ -52,7 +52,7 @@
 
 .stats-screen__text {
   font-size: 17px;
-  color: var(--color-grey);
+  color: $color-grey;
 }
 
 .stats-screen__box__image {

@@ -13,7 +13,7 @@
 }
 
 .pricing-screen__box {
-  border: 1px solid var(--color-redish);
+  border: 1px solid $color-redish;
   border-radius: 18px;
   padding: 34px 132px 81px 132px;
   margin-top: 71px;
@@ -25,7 +25,7 @@
 }
 
 .pricing-screen__box.box-blue {
-  border-color: var(--color-primary);
+  border-color: $color-primary;
   margin-top: 50px;
   box-shadow: 5px 10px 27px #07ACE629;
 
@@ -53,7 +53,7 @@
   border-radius: 23px;
   text-decoration: none;
   color: white;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 13px;
   border: 1px solid rgba(235, 71, 110, 0);
@@ -68,53 +68,53 @@
 
 .button-left:hover {
   background: white;
-  color: var(--color-redish);
-  border: 1px solid var(--color-redish);
+  color: $color-redish;
+  border: 1px solid $color-redish;
 }
 
 .button-middle:hover {
   background: white;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  color: $color-primary;
+  border: 1px solid $color-primary;
 }
 
 .button-right:hover {
   background: white;
-  color: var(--color-green);
-  border: 1px solid var(--color-green);
+  color: $color-green;
+  border: 1px solid $color-green;
 }
 
 .pricing-screen__box > h4 {
   padding: 5px 2px;
   margin-top: 14px;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 46px;
 }
 
 .box-red > h4 {
   margin-bottom: 69px;
-  color: var(--color-redish);
+  color: $color-redish;
 }
 
 .box-blue > h4 {
-  color: var(--color-primary);
+  color: $color-primary;
 }
 
 .box-green > h4 {
-  color: var(--color-green)
+  color: $color-green;
 }
 
 .box-green {
-  border-color: var(--color-green);
+  border-color: $color-green;
 }
 
 .button-right {
-  background: var(--color-green);
+  background: $color-green;
 }
 
 .button-middle {
-  background-color: var(--color-primary);
+  background-color: $color-primary;
 }
 
 
@@ -126,7 +126,7 @@
 
 .pricing-screen__box-list > li {
   margin-bottom: 20px;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: center;
 }

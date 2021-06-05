@@ -1,5 +1,5 @@
 .benefits-screen {
-  background: var(--color-light-grey);
+  background: $color-light-grey;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .benefits-screen__box {
-  background: var(--color-white);
+  background: $color-white;
   margin-bottom: 37px;
   border-radius: 5px;
   border: 1px solid #E8E9ED;
@@ -48,7 +48,7 @@
 
 .benefits-screen__box__text.text > p {
   padding-bottom: 50px;
-  font-family: var(--font-secondary);
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -67,19 +67,22 @@
 
 .border-red {
   width: 328px;
-  border: 2px solid #FB3B64;
+  height: 4px;
+  background-color: #FB3B64;
   margin-bottom: 91px;
 }
 
 .border-blue {
   width: 328px;
-  border: 2px solid var(--color-primary);
+  height: 4px;
+  background-color: $color-primary;
   margin-bottom: 91px;
 }
 
 .border-green {
   width: 328px;
-  border: 2px solid var(--color-green);
+  height: 4px;
+  background-color: $color-green;
   margin-bottom: 55px;
 }
 
@@ -112,7 +115,7 @@
 }
 
 .red-rectangle {
-  background: var(--color-redish);
+  background: $color-redish;
   width: 180px;
   height: 180px;
   border-radius: 41px;
@@ -131,7 +134,7 @@
 }
 
 .green-square {
-  background: var(--color-green);
+  background: $color-green;
   width: 440px;
   height: 370px;
   border-radius: 5px;
