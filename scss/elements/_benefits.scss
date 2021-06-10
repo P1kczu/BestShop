@@ -13,15 +13,24 @@
   border: 1px solid #E8E9ED;
   display: flex;
   justify-content: space-between;
+  @include tablet {
+    flex-direction: column-reverse;
+  }
 }
 
 .benefits-screen__box.box-2 {
   flex-direction: row-reverse;
+  @include tablet {
+    flex-direction: column-reverse;
+  }
 }
 
 .benefits-screen__box__container {
   display: flex;
   margin-bottom: 68px;
+  @include tablet {
+    flex-direction: column;
+  }
 }
 
 .benefits-screen__box__text {

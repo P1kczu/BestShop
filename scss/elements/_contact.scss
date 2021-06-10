@@ -6,6 +6,9 @@
 .contact-screen {
   display: flex;
   margin-bottom: 59px;
+  @include tablet {
+    flex-direction: column;
+  }
 }
 
 .contact-screen__info {

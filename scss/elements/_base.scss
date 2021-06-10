@@ -9,6 +9,11 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1352px;
+  padding: 0 15px;
+  @include tablet {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 
 .container-2 {

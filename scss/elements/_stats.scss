@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   background: $color-white;
+  @include tablet {
+    flex-direction: column;
+  }
 }
 
 .stats-screen__title {
